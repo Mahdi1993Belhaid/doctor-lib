@@ -2,12 +2,7 @@
     <div class="p-4">
       <h2 class="h4 fw-bold mb-4">{{ $t('table.medicalDocuments') }}</h2>
   
-      <!-- Button to Add New Document -->
-      <div class="mb-4">
-        <router-link to="/add-new-case" class="btn btn-primary">
-          {{ $t('table.addNew') }}
-        </router-link>
-      </div>
+   
   
       <!-- Loading Spinner -->
       <div v-if="isLoading" class="text-center">
@@ -26,7 +21,7 @@
               <th>{{ $t('form.lastName') }}</th>
               <th>{{ $t('form.documentNumber') }}</th>
               <th>{{ $t('form.examinationDate') }}</th>
-              <th>{{ $t('table.actions') }}</th>
+             
             </tr>
           </thead>
           <tbody>

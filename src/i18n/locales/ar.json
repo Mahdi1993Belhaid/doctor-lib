@@ -13,7 +13,10 @@
     "id": "المعرف",
     "firstName": "الاسم الأول",
     "lastName": "اسم العائلة",
-    "examinationDate": "تاريخ الفحص"
+    "examinationDate": "تاريخ الفحص",
+    "edit":"صحح",
+    "delete":"مسح",
+    "medicalDocuments":"الملفات"
   },
     "header": {
       "userName": "د. محمد الصغير",
