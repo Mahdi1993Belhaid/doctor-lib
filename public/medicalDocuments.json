@@ -1,0 +1,97 @@
+[
+    {
+      "id": "5769",
+      "firstName": "John",
+      "lastName": "Doe",
+      "documentNumber": "12345",
+      "examinationDate": "2025-05-01",
+      "sex": "ذكر",
+      "address": "123 Main St",
+      "birthDate": "1990-01-01",
+      "treatmentCenter": "Center A",
+      "nameOfCaseStudy": "Case Study 1",
+      "transferSource": "Source X",
+      "reasonForExamination": "Checkup",
+      "formCompletedByName": "Dr. Smith",
+      "isFormDataReconfirmedBySpecialist": true,
+      "relationshipWithChild": "Parent",
+      "child": {
+        "fullName": "Johnny Doe",
+        "birthDate": "2015-05-01",
+        "examinationDate": "2025-05-01",
+        "testsAppliedToChild": "Test A"
+      },
+      "father": {
+        "fatherName": "Jane Doe",
+        "fatherJob": "Engineer",
+        "fatherAge": 40,
+        "fatherQualifications": "BSc",
+        "fatherHealthState": "Healthy"
+      },
+      "mother": {
+        "motherName": "Mary Doe",
+        "motherJob": "Teacher",
+        "motherAge": 38,
+        "motherQualifications": "MA",
+        "motherHealthState": "Healthy"
+      },
+      "family": {
+        "parentRelation": "Married",
+        "phoneNumber": "123456789",
+        "completeAddress": "123 Main St",
+        "wilaya": "Wilaya A",
+        "email": "john.doe@example.com",
+        "numberOfFamily": 4,
+        "numberOfSiblings": 1,
+        "childOrder": 1,
+        "childLiveWith": "Parents",
+        "familyRelation": "Nuclear"
+      },
+      "relative": {
+        "familyRelationshipType": "Sibling",
+        "sex": "ذكر",
+        "age": 35,
+        "job": "Doctor"
+      },
+      "birth": {
+        "typeOfBirth": "Natural",
+        "durationOfPregnancy": 9,
+        "maternalHealthCondition": "Good",
+        "maternalIssues": "None",
+        "babyWeight": 3.5
+      },
+      "childDiseases": [],
+      "psychomotorDevelopment": {
+        "isRunAbility": true,
+        "isStairsClimbing": true,
+        "isOpenCloseDoor": true,
+        "isSelfNaming": true,
+        "isSelfEating": true,
+        "isRecognizeBodyParts": true,
+        "isDailyCleanliness": true,
+        "evolution": "Normal"
+      },
+      "examination": {
+        "fromMonth": 0,
+        "toMonth": 12,
+        "monthVisit": 1,
+        "executerName": "Dr. Jones",
+        "dateBilant": "2025-05-01",
+        "size": 1.2,
+        "weight": 10.5,
+        "headDimension": 50.0,
+        "description": "Healthy",
+        "examination": "General"
+      },
+      "operations": [],
+      "vaccinations": [],
+      "psychoanalysis": {
+        "psychologistName": "Dr. Lee",
+        "isFamilyCaseExist": false,
+        "familyRelation": "",
+        "examination": "Normal",
+        "specialistRecommendations": "Continue monitoring"
+      },
+      "documentPicture": null
+    }
+  ]

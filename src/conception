@@ -1,0 +1,102 @@
+MedicalDocument:
+
+ firstName:String
+ lastName:String
+ sex:String
+ address:String
+ birthDate:Date
+ treatmentCenter:String
+ documentNumber:String
+ nameOfCaseStudy:String
+ examinationDate:Date
+ transferSource:String
+ reasonForExamination:String
+ formCompletedByName:String
+ isFormDataReconfirmedBySpecialist:Boolean
+ relationshipWithChild:String
+ Child:
+  fullName:String
+  birthDate:Date
+  examinationDate:Date
+  testsAppliedToChild:String
+  Father:
+    fatherName:String
+    fatherJob:String
+    fatherAge:Number
+    fatherQualifications:String
+    FatherHealthState:String
+  Mother:
+    motherName:String
+    motherJob:String
+    motherAge:Number
+    motherQualifications:String
+    motherHealthState:String
+  Family:
+    parentRelation:String
+    phoneNumber:String
+    completeAddress:String
+    wilaya:String
+    email:String
+    numberOfFamilly:Number
+    numberOfSiblings:Number
+    childOrder:Number
+    childLiveWith:String
+    familyRelation:String
+
+  Relative :
+   familyRelationshipType:String
+   sex:String
+   age:number
+   job:String
+
+  Birth:
+   typeOfBirth:String 
+   durationOfPregnancy:Number
+   maternalHealthCondition:String
+   maternalIssues:String
+   babyWeight:Number
+
+  ChildDeseaces:
+   medicalDocument:File
+   stateDescription:String
+   specialistFullName:String
+   phoneNumber:String
+   wilaya:String
+   services:String
+   doctors:String
+ 
+  PsychomotorDevelopment:
+   isRunAbility:boolean
+   isStairsClimbing:boolean
+   isOpenCloseDoor:boolean
+   isSelfNaming:boolean
+   isSelfEating:boolean
+   isRecognizeBodyParts:boolean
+   isDailycleanliness:boolean
+   evoluition:String
+
+ Examination:
+  fromMonth:Number
+  toMonth:Number
+  monthVisit:Number
+  excuterName:String
+  dateBilant:Date
+  size:Number
+  wigth:Number
+  headDimention:Number
+  description:String
+  examination:String
+Operations:
+ doctorName:String
+ surgicalDiagnosis:String
+ locationOfSurgery:String
+ dateOfSurgery:String
+ healPeriod:Number
+Vaccination:
+ year:Number
+ age:Number
+ vaccine:String
+Psychoanalysis:
+ 
+
+
