@@ -1,97 +1,334 @@
 [
     {
-      "id": "5769",
-      "firstName": "John",
-      "lastName": "Doe",
-      "documentNumber": "12345",
-      "examinationDate": "2025-05-01",
-      "sex": "ذكر",
-      "address": "123 Main St",
-      "birthDate": "1990-01-01",
-      "treatmentCenter": "Center A",
-      "nameOfCaseStudy": "Case Study 1",
-      "transferSource": "Source X",
-      "reasonForExamination": "Checkup",
-      "formCompletedByName": "Dr. Smith",
-      "isFormDataReconfirmedBySpecialist": true,
-      "relationshipWithChild": "Parent",
-      "child": {
-        "fullName": "Johnny Doe",
-        "birthDate": "2015-05-01",
-        "examinationDate": "2025-05-01",
-        "testsAppliedToChild": "Test A"
-      },
-      "father": {
-        "fatherName": "Jane Doe",
-        "fatherJob": "Engineer",
-        "fatherAge": 40,
-        "fatherQualifications": "BSc",
-        "fatherHealthState": "Healthy"
-      },
-      "mother": {
-        "motherName": "Mary Doe",
-        "motherJob": "Teacher",
-        "motherAge": 38,
-        "motherQualifications": "MA",
-        "motherHealthState": "Healthy"
-      },
-      "family": {
-        "parentRelation": "Married",
-        "phoneNumber": "123456789",
-        "completeAddress": "123 Main St",
-        "wilaya": "Wilaya A",
-        "email": "john.doe@example.com",
-        "numberOfFamily": 4,
-        "numberOfSiblings": 1,
-        "childOrder": 1,
-        "childLiveWith": "Parents",
-        "familyRelation": "Nuclear"
-      },
-      "relative": {
-        "familyRelationshipType": "Sibling",
+        "id": "5770",
+        "documentPicture": null,
+        "firstName": "عبد الله",
+        "lastName": "خالد",
         "sex": "ذكر",
-        "age": 35,
-        "job": "Doctor"
+        "address": "حي المحمدية، قسنطينة",
+        "birthDate": "1985-03-12",
+        "treatmentCenter": "مركز قسنطينة الطبي",
+        "documentNumber": "67890",
+        "nameOfCaseStudy": "دراسة حالة 2",
+        "examinationDate": "2025-05-18",
+        "transferSource": "مستشفى ابن رشد",
+        "reasonForExamination": "متابعة صحية",
+        "formCompletedByName": "د. أمينة",
+        "isFormDataReconfirmedBySpecialist": false,
+        "relationshipWithChild": "أخ",
+        "child": {
+          "fullName": "سعيد عبد الله",
+          "birthDate": "2018-07-20",
+          "examinationDate": "2025-05-18",
+          "testsAppliedToChild": "فحص السمع"
+        },
+        "father": {
+          "fatherName": "خالد سعيد",
+          "fatherJob": "محاسب",
+          "fatherAge": 50,
+          "fatherQualifications": "دبلوم التجارة",
+          "fatherHealthState": "ضغط مرتفع"
+        },
+        "mother": {
+          "motherName": "نورة حسن",
+          "motherJob": "موظفة",
+          "motherAge": 47,
+          "motherQualifications": "بكالوريوس الاقتصاد",
+          "motherHealthState": "صحة جيدة"
+        },
+        "family": {
+          "parentRelation": "متزوجين",
+          "phoneNumber": "0556987452",
+          "completeAddress": "حي المحمدية، قسنطينة",
+          "wilaya": "قسنطينة",
+          "email": "khaled.family@ex.com",
+          "numberOfFamily": 5,
+          "numberOfSiblings": 3,
+          "childOrder": 2,
+          "childLiveWith": "الوالدان",
+          "familyRelation": "عائلة موسعة"
+        },
+        "relative": {
+          "familyRelationshipType": "أخت",
+          "sex": "أنثى",
+          "age": 28,
+          "job": "ممرضة"
+        },
+        "birth": {
+          "typeOfBirth": "قيصري",
+          "durationOfPregnancy": 8,
+          "maternalHealthCondition": "جيدة",
+          "maternalIssues": "ارتفاع ضغط الدم",
+          "babyWeight": 3.0
+        },
+        "childDiseases": [
+          {
+            "medicalDocument": null,
+            "stateDescription": "التهاب الحلق",
+            "specialistFullName": "د. سارة",
+            "phoneNumber": "0557891234",
+            "wilaya": "قسنطينة",
+            "services": "علاج عام",
+            "doctors": "د. سارة"
+          }
+        ],
+        "psychomotorDevelopment": {
+          "isRunAbility": true,
+          "isStairsClimbing": false,
+          "isOpenCloseDoor": true,
+          "isSelfNaming": true,
+          "isSelfEating": false,
+          "isRecognizeBodyParts": false,
+          "isDailyCleanliness": true,
+          "evolution": "بطيء"
+        },
+        "examination": {
+          "fromMonth": 0,
+          "toMonth": 6,
+          "monthVisit": 1,
+          "executerName": "د. حسن",
+          "dateBilant": "2025-05-18",
+          "size": 0.9,
+          "weight": 8.0,
+          "headDimension": 46.0,
+          "description": "يحتاج متابعة",
+          "examination": "فحص أطفال"
+        },
+        "operations": [],
+        "vaccinations": [
+          {
+            "year": 2018,
+            "age": 0,
+            "vaccine": "الكزاز"
+          }
+        ],
+        "psychoanalysis": {
+          "psychologistName": "د. ريم",
+          "isFamilyCaseExist": true,
+          "familyRelation": "أخ",
+          "examination": "معقد",
+          "specialistRecommendations": "استشارة نفسية"
+        }
       },
-      "birth": {
-        "typeOfBirth": "Natural",
-        "durationOfPregnancy": 9,
-        "maternalHealthCondition": "Good",
-        "maternalIssues": "None",
-        "babyWeight": 3.5
+      {
+        "id": "5771",
+        "documentPicture": null,
+        "firstName": "ليلى",
+        "lastName": "فوزي",
+        "sex": "أنثى",
+        "address": "حي البليدة، البليدة",
+        "birthDate": "1992-09-15",
+        "treatmentCenter": "مركز البليدة الصحي",
+        "documentNumber": "11223",
+        "nameOfCaseStudy": "دراسة حالة 3",
+        "examinationDate": "2025-05-18",
+        "transferSource": "عيادة البليدة",
+        "reasonForExamination": "فحص حامل",
+        "formCompletedByName": "د. زهرة",
+        "isFormDataReconfirmedBySpecialist": true,
+        "relationshipWithChild": "أم",
+        "child": {
+          "fullName": "سلمى ليلى",
+          "birthDate": "2020-03-10",
+          "examinationDate": "2025-05-18",
+          "testsAppliedToChild": "فحص العينين"
+        },
+        "father": {
+          "fatherName": "فوزي حسن",
+          "fatherJob": "تاجر",
+          "fatherAge": 48,
+          "fatherQualifications": "ثانوية عامة",
+          "fatherHealthState": "سكري"
+        },
+        "mother": {
+          "motherName": "ليلى سعيد",
+          "motherJob": "بيتية",
+          "motherAge": 45,
+          "motherQualifications": "متوسطة",
+          "motherHealthState": "حمل طبيعي"
+        },
+        "family": {
+          "parentRelation": "متزوجين",
+          "phoneNumber": "0553456789",
+          "completeAddress": "حي البليدة، البليدة",
+          "wilaya": "البليدة",
+          "email": "laila.family@ex.com",
+          "numberOfFamily": 3,
+          "numberOfSiblings": 0,
+          "childOrder": 1,
+          "childLiveWith": "الوالدان",
+          "familyRelation": "عائلة صغيرة"
+        },
+        "relative": {
+          "familyRelationshipType": "عم",
+          "sex": "ذكر",
+          "age": 55,
+          "job": "مزارع"
+        },
+        "birth": {
+          "typeOfBirth": "طبيعي",
+          "durationOfPregnancy": 9,
+          "maternalHealthCondition": "جيدة",
+          "maternalIssues": "لا شيء",
+          "babyWeight": 3.4
+        },
+        "childDiseases": [],
+        "psychomotorDevelopment": {
+          "isRunAbility": true,
+          "isStairsClimbing": true,
+          "isOpenCloseDoor": false,
+          "isSelfNaming": true,
+          "isSelfEating": true,
+          "isRecognizeBodyParts": true,
+          "isDailyCleanliness": true,
+          "evolution": "جيد"
+        },
+        "examination": {
+          "fromMonth": 0,
+          "toMonth": 12,
+          "monthVisit": 2,
+          "executerName": "د. سمية",
+          "dateBilant": "2025-05-18",
+          "size": 1.0,
+          "weight": 9.0,
+          "headDimension": 47.0,
+          "description": "صحة ممتازة",
+          "examination": "فحص نساء"
+        },
+        "operations": [
+          {
+            "doctorName": "د. منى",
+            "surgicalDiagnosis": "إزالة كيس",
+            "locationOfSurgery": "مستشفى البليدة",
+            "dateOfSurgery": "2022-04-10",
+            "healPeriod": 10
+          }
+        ],
+        "vaccinations": [
+          {
+            "year": 2020,
+            "age": 0,
+            "vaccine": "الكزاز"
+          }
+        ],
+        "psychoanalysis": {
+          "psychologistName": "د. هدى",
+          "isFamilyCaseExist": false,
+          "familyRelation": "",
+          "examination": "طبيعي",
+          "specialistRecommendations": "متابعة طبية"
+        }
       },
-      "childDiseases": [],
-      "psychomotorDevelopment": {
-        "isRunAbility": true,
-        "isStairsClimbing": true,
-        "isOpenCloseDoor": true,
-        "isSelfNaming": true,
-        "isSelfEating": true,
-        "isRecognizeBodyParts": true,
-        "isDailyCleanliness": true,
-        "evolution": "Normal"
-      },
-      "examination": {
-        "fromMonth": 0,
-        "toMonth": 12,
-        "monthVisit": 1,
-        "executerName": "Dr. Jones",
-        "dateBilant": "2025-05-01",
-        "size": 1.2,
-        "weight": 10.5,
-        "headDimension": 50.0,
-        "description": "Healthy",
-        "examination": "General"
-      },
-      "operations": [],
-      "vaccinations": [],
-      "psychoanalysis": {
-        "psychologistName": "Dr. Lee",
-        "isFamilyCaseExist": false,
-        "familyRelation": "",
-        "examination": "Normal",
-        "specialistRecommendations": "Continue monitoring"
-      },
-      "documentPicture": null
-    }
-  ]
+      {
+        "id": "5772",
+        "documentPicture": null,
+        "firstName": "يوسف",
+        "lastName": "عمر",
+        "sex": "ذكر",
+        "address": "حي الجزائر الجديدة، الجزائر",
+        "birthDate": "1988-11-25",
+        "treatmentCenter": "مركز الجزائر الطبي",
+        "documentNumber": "33445",
+        "nameOfCaseStudy": "دراسة حالة 4",
+        "examinationDate": "2025-05-18",
+        "transferSource": "مستشفى المواساة",
+        "reasonForExamination": "فحص قلب",
+        "formCompletedByName": "د. عبد الرحمن",
+        "isFormDataReconfirmedBySpecialist": true,
+        "relationshipWithChild": "والد",
+        "child": {
+          "fullName": "أحمد يوسف",
+          "birthDate": "2019-08-15",
+          "examinationDate": "2025-05-18",
+          "testsAppliedToChild": "فحص القلب"
+        },
+        "father": {
+          "fatherName": "عمر حسن",
+          "fatherJob": "محامي",
+          "fatherAge": 52,
+          "fatherQualifications": "ليسانس القانون",
+          "fatherHealthState": "صحة جيدة"
+        },
+        "mother": {
+          "motherName": "سعاد محمد",
+          "motherJob": "طبيبة",
+          "motherAge": 49,
+          "motherQualifications": "دكتوراه الطب",
+          "motherHealthState": "ضغط منخفض"
+        },
+        "family": {
+          "parentRelation": "متزوجين",
+          "phoneNumber": "0555678901",
+          "completeAddress": "حي الجزائر الجديدة، الجزائر",
+          "wilaya": "الجزائر العاصمة",
+          "email": "youssef.family@ex.com",
+          "numberOfFamily": 4,
+          "numberOfSiblings": 1,
+          "childOrder": 1,
+          "childLiveWith": "الوالدان",
+          "familyRelation": "عائلة نووية"
+        },
+        "relative": {
+          "familyRelationshipType": "خالة",
+          "sex": "أنثى",
+          "age": 45,
+          "job": "مدرسة"
+        },
+        "birth": {
+          "typeOfBirth": "قيصري",
+          "durationOfPregnancy": 9,
+          "maternalHealthCondition": "جيدة",
+          "maternalIssues": "نزيف خفيف",
+          "babyWeight": 3.6
+        },
+        "childDiseases": [
+          {
+            "medicalDocument": null,
+            "stateDescription": "حساسية",
+            "specialistFullName": "د. نادية",
+            "phoneNumber": "0558901234",
+            "wilaya": "الجزائر العاصمة",
+            "services": "علاج حساسية",
+            "doctors": "د. نادية"
+          }
+        ],
+        "psychomotorDevelopment": {
+          "isRunAbility": true,
+          "isStairsClimbing": true,
+          "isOpenCloseDoor": true,
+          "isSelfNaming": false,
+          "isSelfEating": true,
+          "isRecognizeBodyParts": true,
+          "isDailyCleanliness": false,
+          "evolution": "جيد"
+        },
+        "examination": {
+          "fromMonth": 0,
+          "toMonth": 12,
+          "monthVisit": 1,
+          "executerName": "د. علي",
+          "dateBilant": "2025-05-18",
+          "size": 1.2,
+          "weight": 10.0,
+          "headDimension": 49.0,
+          "description": "صحة جيدة",
+          "examination": "فحص قلب"
+        },
+        "operations": [],
+        "vaccinations": [
+          {
+            "year": 2019,
+            "age": 0,
+            "vaccine": "الكزاز"
+          }
+        ],
+        "psychoanalysis": {
+          "psychologistName": "د. جمال",
+          "isFamilyCaseExist": false,
+          "familyRelation": "",
+          "examination": "طبيعي",
+          "specialistRecommendations": "لا حاجة لمتابعة"
+        }
+      }
+    ]
+  
