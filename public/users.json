@@ -1,0 +1,32 @@
+[
+    {
+      "id": "1",
+      "username": "محمد_أحمد",
+      "password": "password123",
+      "email": "mohamed.ahmed@example.com",
+      "firstName": "محمد",
+      "lastName": "أحمد",
+      "role": "admin",
+      "specialty": null
+    },
+    {
+      "id": "2",
+      "username": "ليلى_فوزي",
+      "password": "password456",
+      "email": "laila.fawzi@example.com",
+      "firstName": "ليلى",
+      "lastName": "فوزي",
+      "role": "user",
+      "specialty": "طب أطفال" 
+    },
+    {
+      "id": "3",
+      "username": "يوسف_عمر",
+      "password": "password789",
+      "email": "youssef.omar@example.com",
+      "firstName": "يوسف",
+      "lastName": "عمر",
+      "role": "user",
+      "specialty": "جراحة عامة" 
+    }
+  ]

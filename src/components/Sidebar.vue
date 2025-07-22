@@ -3,7 +3,7 @@
       <h3 class="sidebar-title">{{ $t('sidebar.menu.medicalRecords') }}</h3>
       <ul class="nav flex-column">
         <li class="nav-item">
-          <router-link to="/" class="nav-link" active-class="active">
+          <router-link to="/dashboard" class="nav-link" active-class="active">
             {{ $t('sidebar.menu.home') }}
           </router-link>
         </li>
