@@ -1,4 +1,5 @@
- <div class="d-flex flex-column" style="min-height: 100vh;">
+<template>
+  <div class="d-flex flex-column" style="min-height: 100vh;">
     <!-- Show Login Page if not authenticated -->
     <div v-if="!isAuthenticated">
       <router-view />
