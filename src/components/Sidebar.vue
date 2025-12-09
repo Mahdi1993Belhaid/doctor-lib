@@ -1,5 +1,6 @@
 <template>
     <div class="sidebar">
+      <img src="/logo-with-text.jpg" alt="avatar" class="avatar" width="230" height="150" />
       <h3 class="sidebar-title">{{ $t('sidebar.menu.medicalRecords') }}</h3>
       <ul class="nav flex-column">
         <li class="nav-item">
