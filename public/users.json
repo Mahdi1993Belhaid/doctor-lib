@@ -7,7 +7,8 @@
       "firstName": "محمد",
       "lastName": "أحمد",
       "role": "admin",
-      "specialty": null
+      "specialty": "جراحة عامة" ,
+      "avatar":"https://i.pravatar.cc/40?img=1"
     },
     {
       "id": "2",
@@ -17,7 +18,8 @@
       "firstName": "ليلى",
       "lastName": "فوزي",
       "role": "user",
-      "specialty": "طب أطفال" 
+      "specialty": "طب أطفال" ,
+      "avatar":"https://i.pravatar.cc/40?img=1"
     },
     {
       "id": "3",
@@ -27,6 +29,7 @@
       "firstName": "يوسف",
       "lastName": "عمر",
       "role": "user",
-      "specialty": "جراحة عامة" 
+      "specialty": "جراحة عامة" ,
+       "avatar":"https://i.pravatar.cc/40?img=1"
     }
   ]

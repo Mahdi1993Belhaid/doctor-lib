@@ -59,6 +59,18 @@ export class UserServiceImpl implements UserService{
     
     return [...this.users ] ;
     }
+
+    addnewUser(userForm:User){
+       const exitUser = this.users.find(usr => usr.email === userForm.email);
+       if(exitUser){
+        throw new Error('this account already exist')
+       }
+        userForm.id=Date.now().toString();
+        this.users.push({...userForm})
+        this.saveToLocalStorage();
+    }
+
+    
 }
 
 export const userService = new UserServiceImpl();

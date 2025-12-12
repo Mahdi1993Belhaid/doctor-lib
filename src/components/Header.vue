@@ -1,9 +1,10 @@
 <template>
   <header v-if="isAuthenticated" class="bg-white shadow-sm p-3 d-flex justify-content-between align-items-center">
     <div class="d-flex align-items-center gap-3">
-      <img :src="userAvatar || 'https://via.placeholder.com/40'" alt="User Avatar" class="rounded-circle" width="40" height="40" />
+      <img :src="userAvatar" alt="User Avatar" class="rounded-circle" width="40" height="40" />
       <div>
-        <p class="mb-0 fw-semibold">{{ userName || $t('header.userName') }}</p>
+        <p class="mb-0 fw-semibold">{{userName}}</p>
+        <p class="mb-0 fw-semibold">{{ userSpeciality}}</p>
         
       </div>
       <button class="btn btn-outline-secondary btn-sm rounded-circle p-0" style="width: 24px; height: 24px;">
@@ -34,8 +35,9 @@ export default defineComponent({
     const { t } = useI18n();
     const store = useUserAuth();
 
-    const userName = computed(() => store.user?.firstName + store.user.lastName);
-    const userAvatar = computed(() => store.user?.avatar || 'https://via.placeholder.com/40');
+    const userName = computed(() => store.user?.firstName +' ' +store.user.lastName);
+    const userAvatar = computed(() => store.user.avatar);
+    const userSpeciality = computed(() => store.user?.specialty || 'https://via.placeholder.com/40');
     const isAuthenticated = computed(() => store.isAuthenticated);
 
     const logout = () => {

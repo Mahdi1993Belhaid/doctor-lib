@@ -10,29 +10,15 @@ export const useUserAuth = defineStore('userAuth',{
     }),
     actions:{
        async login(email:String,password:String){
-         //const userAuth:User = await userService.getUserByEmail(email);
+         const userAuth:User = await userService.getUserByEmail(email);
          const usernameForm="admin@gmail.com";
          const passwordForm="admin";
-         /*
+         
          if(!userAuth || userAuth.email !== email || userAuth.password!==password){
             throw new Error('username or password is incorrect')
          }
-        */
-       if(email !== usernameForm || password!==passwordForm){
         
-            throw new Error('username or password is incorrect')
-         }
-         this.user = { 
-      "id": "1",
-      "username": "محمد_أحمد",
-      "password": "password123",
-      "email": "mohamed.ahmed@example.com",
-      "firstName": "محمد",
-      "lastName": "أحمد",
-      "role": "admin",
-      "avatar":"/images/default-profile.jpg",
-      "specialty": null
-    };
+        this.user = userAuth;
          this.isAuthenticated = true;
         },
 

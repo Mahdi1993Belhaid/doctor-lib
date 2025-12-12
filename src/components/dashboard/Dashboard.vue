@@ -8,14 +8,17 @@
      <div class="col-8">
       <Patient/>
      </div>
+     
 
     </div>
     <div class="row">
      
       <Schedule/>
      
-
     </div>
+    <div class="col-8">
+      <AutismWilayasChart/>
+     </div>
 
  
 </template>
@@ -24,14 +27,16 @@
 import Examination from '/src/components/dashboard/Examination.vue';
 import Patient from '/src/components/dashboard/Patient.vue';
 import Schedule from '/src/components/dashboard/Schedule.vue';
+import AutismWilayasChart from '/src/components/dashboard/Wilaya.vue';
 export default {
     
   name: 'Dashboard',
   components: {
     Examination,
     Patient,
-    Schedule
+    Schedule,
 
+   AutismWilayasChart
   },
 
   

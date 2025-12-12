@@ -4,6 +4,7 @@ import MedicalDocumentForm from '../components/MedicalDocumentForm.vue';
 import MedicalDocumentTable from '../components/MedicalDocumentTable.vue';
 import LoginView from '../components/LoginView.vue';
 import Dashboard from '../components/dashboard/Dashboard.vue';
+import UserForm from '../components/UserForm.vue';
 
 const routes = [
   {
@@ -27,6 +28,13 @@ const routes = [
     path: '/display-cases',
     name: 'DisplayCases',
     component: MedicalDocumentTable,
+    meta: { requiresAuth: true }
+  },
+
+  {
+    path: '/user',
+    name: 'UserForm',
+    component: UserForm,
     meta: { requiresAuth: true }
   },
    {
